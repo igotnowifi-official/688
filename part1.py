@@ -2,6 +2,9 @@
 # Clean lyrics
 # Visuals of sentiment analysis and metrics of song
 
+pip install lyricsgenius
+pip install afinn
+
 import streamlit as st
 import lyricsgenius
 from datasets import load_dataset
@@ -13,7 +16,7 @@ import re
 import datetime
 import random
 import torch
-from part2 import generate_audio, play_audio
+#from part2 import generate_audio, play_audio
 
 # Initialize the Genius API client with your API key
 genius = lyricsgenius.Genius('dLgle08YVcWmSdFppd5ZB4A-RvEW4WgA4OdY_JTBogchASwXIvXa9Uo6Y2LETbBB')
