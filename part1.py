@@ -2,8 +2,8 @@
 # Clean lyrics
 # Visuals of sentiment analysis and metrics of song
 
-pip install lyricsgenius
-pip install afinn
+#pip install lyricsgenius
+#pip install afinn
 
 import streamlit as st
 import lyricsgenius
