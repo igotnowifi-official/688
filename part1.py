@@ -19,7 +19,8 @@ import torch
 #from part2 import generate_audio, play_audio
 
 # Initialize the Genius API client with your API key
-genius = lyricsgenius.Genius('dLgle08YVcWmSdFppd5ZB4A-RvEW4WgA4OdY_JTBogchASwXIvXa9Uo6Y2LETbBB')
+GENIUS_TOKEN = st.secrets["GENIUS_TOKEN"]
+genius = lyricsgenius.Genius(GENIUS_TOKEN)
 
 # Get the current time
 current_time = datetime.datetime.now()
