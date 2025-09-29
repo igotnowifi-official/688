@@ -1,0 +1,7 @@
+streamlit
+lyricsgenius
+datasets
+afinn
+transformers
+scikit-learn
+torch
